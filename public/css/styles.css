@@ -48,7 +48,17 @@ header {
 header .navbar {
   padding: 1em 0;
   margin-right: 1rem;
+  margin-left: 2rem;
   position: relative;
+  display: flex;
+  align-items: center;
+}
+header .navbar .logo {
+  direction: ltr;
+  flex: 1;
+}
+header .navbar .logo img {
+  width: 80px;
 }
 header .navbar .menu {
   display: none;

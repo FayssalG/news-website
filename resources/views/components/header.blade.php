@@ -12,5 +12,9 @@
                 <li><a href="/international">دولية</a></li>
                 <li><a href="/culture">ثقافة</a></li>
             </ul>
+            <div class="logo">
+                <img  src="{{asset('assets/logo.svg')}}" alt="">
+            </div>
+
         </nav>
 </header>
