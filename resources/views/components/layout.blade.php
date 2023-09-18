@@ -20,8 +20,8 @@
     <meta name="csrftoken" content="{{ csrf_token() }}">
     <title>Document</title>
 
-    <link rel="stylesheet" href="{{asset('css/styles.css' , true)}}">
-    <script defer type="module" src="{{asset('js/script.js', true)}}" ></script>
+    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
+    <script defer type="module" src="{{asset('js/script.js')}}" ></script>
     
     <script src="https://kit.fontawesome.com/c1b8c56909.js" crossorigin="anonymous"></script>
 
